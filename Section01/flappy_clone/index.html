@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @font-face { 
+            font-family: "gameFont"; 
+            src: url("./assets/gameFont.ttf");
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            font-family: "gameFont";
+        }
+        canvas{
+            margin: 0 auto;
+            display: block;
+        }
+    </style>
+    <script src="./js/phaser.js"></script>
+    <script src="./js/game.js" type="module"></script>
+    <!-- <script src="./js/scenes/PlayScene.js"></script> -->
+</head>
+<body>
+    <div style="font-family:'gameFont'; visibility: hidden; width: 0; height: 0;" id="font-loader">.</div>
+</body>
+</html>
